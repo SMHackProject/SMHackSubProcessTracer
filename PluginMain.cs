@@ -12,7 +12,7 @@
             new ConcurrentDictionary<IntPtr, int>();
 
         [SuppressMessage("ReSharper", "UnusedParameter.Local")]
-        public PluginMain(ServerInterfaceProxy proxy) {
+        public PluginMain(ServerInterfaceProxy proxy, params string[] args) {
         }
 
         public ApiHook[] GetApiHooks() {
